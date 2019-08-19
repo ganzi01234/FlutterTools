@@ -23,7 +23,7 @@
   微信SDK（[flutter_wechat](https://pub.dev/packages/flutter_wechat)）  
   百度地图（[fm_baidu_map](https://pub.dev/packages/fm_baidu_map)）  
   谷歌Admob（[firebase_admob](https://pub.dev/packages/firebase_admob)）  
-  游戏Developer Quest--这是一个完全使用Flutter开发的小游戏，很酷。。 
+  游戏Developer Quest--这是一个完全使用Flutter开发的小游戏，很酷。。   
   以上是项目中集成的第三方包，基本在现有的APP开发中够用，作者都是采用模块化，你不需要的模块可以按照项目中的说明来删除即可。不会影响到其他模块使用。
 # FlutterTools使用说明
   按照环境配置文章配置好，导入包即可使用FlutterTools.
