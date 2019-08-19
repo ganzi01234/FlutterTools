@@ -34,3 +34,6 @@
   #### 关于IOS
   待实现。。。
   
+# 感谢
+  [Flutter-Go](https://github.com/alibaba/flutter-go)
+  
