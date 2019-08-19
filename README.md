@@ -7,7 +7,8 @@
   作者是参考了这些文章进行环境配置，在这里写出来，免得大家走弯路去寻找  
   [Flutter配置在AndroidStudio最新教程](https://blog.csdn.net/qq_37199105/article/details/81007683)  
   [查看 flutter 安装其它依赖项遇到的问题](https://blog.csdn.net/langzxz/article/details/80933515)  
-  作者遇到的坑，作者使用win8.1支持的powershell版本太低。需要重新更新安装windows update，[下载地址](https://download.microsoft.com/download/6/F/5/6F5FF66C-6775-42B0-86C4-47D41F2DA187/Win8.1AndW2K12R2-KB3191564-x64.msu)，他会启动一个windows 更新程序，下载一些更新，耗时很长。
+  作者遇到的坑，作者使用win8.1支持的powershell版本太低。需要重新更新安装windows update，[下载地址](https://download.microsoft.com/download/6/F/5/6F5FF66C-6775-42B0-86C4-47D41F2DA187/Win8.1AndW2K12R2-KB3191564-x64.msu)，他会启动一个windows 更新程序，下载一些更新，耗时很长。  
+  建议使用AS3.0-3.1，Flutter插件竟然不支持新版本3.4。/吐槽
 # 集成的包
   #### 基础模块：  
   http网络请求-使用dio的默认网络请求框架  
