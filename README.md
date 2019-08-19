@@ -9,12 +9,13 @@
   [查看 flutter 安装其它依赖项遇到的问题](https://blog.csdn.net/langzxz/article/details/80933515)  
   作者遇到的坑，作者使用win8.1支持的powershell版本太低。需要重新更新安装windows update，[下载地址](https://download.microsoft.com/download/6/F/5/6F5FF66C-6775-42B0-86C4-47D41F2DA187/Win8.1AndW2K12R2-KB3191564-x64.msu)，他会启动一个windows 更新程序，下载一些更新，耗时很长。
 # 集成的包
-  基础模块：  
+  #### 基础模块：  
   http网络请求-使用dio的默认网络请求框架  
   本地存储-使用[sqflite](https://pub.dev/packages/sqflite)和[shared_preferences](https://pub.dev/packages/shared_preferences)  
   路由路径-使用[fluro](https://pub.dev/packages/fluro)  
-  调用SMS或EMAIL等基础功能-[url_launcher](https://pub.dev/packages/url_launcher)
-  功能模块：  
+  调用SMS或EMAIL等基础功能-[url_launcher](https://pub.dev/packages/url_launcher)  
+   
+  #### 功能模块：  
   语音识别（[record_wav](https://pub.dev/packages/recorder_wav)，后端采用[ARST语言识别系统](https://github.com/nl8590687/ASRT_SpeechRecognition)(经过作者改良，改良源码暂未公开，有兴趣可以联系作者)，也采用了谷歌语音识别（[google cloud speech api](https://pub.dev/packages/googleapis)，需要翻墙，支持中文日文））  
   拍照和本地相册读取照片（[image_picker](https://pub.dev/packages/image_picker)）  
   二维码识别（[flutter_mobile_vision_jamel](https://pub.dev/packages/flutter_mobile_vision_jamel)）  
