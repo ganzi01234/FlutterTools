@@ -28,7 +28,8 @@
   游戏Developer Quest--这是一个完全使用Flutter开发的小游戏，很酷。。   
   以上是项目中集成的第三方包，基本在现有的APP开发中够用，作者都是采用模块化，你不需要的模块可以按照项目中的说明来删除即可。不会影响到其他模块使用。
 # FlutterTools使用说明
-  按照环境配置文章配置好，导入包即可使用FlutterTools.
+  按照环境配置文章配置好，导入包==>run configurations中配置main.dart==>Dart entrypoint指向FlutterTools-master\lib\main.dart。
+  即可使用FlutterTools
   #### 关于Android
   已经在我本机上面实现android打包，除支付宝功能外，其他功能正常。
   #### 关于IOS
