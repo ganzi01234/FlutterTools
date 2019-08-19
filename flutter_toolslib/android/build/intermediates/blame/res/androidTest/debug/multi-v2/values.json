@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\hexie\\flutter_tools\\flutter_toolslib\\android\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "G:\\hexie\\flutter_tools\\flutter_toolslib\\android\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,148,199,258",
+                        "endLines": "2,3,4,5,11",
+                        "endColumns": "45,46,50,58,12",
+                        "endOffsets": "96,143,194,253,572"
+                    }
+                }
+            ]
+        }
+    ]
+}
