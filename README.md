@@ -30,7 +30,7 @@
 # FlutterTools使用说明
   按照环境配置文章配置好，导入包即可使用FlutterTools.
   #### 关于Android
-  已经在我本机上面实现android打包
+  已经在我本机上面实现android打包，除支付宝功能外，其他功能正常。
   #### 关于IOS
   待实现。。。
   
