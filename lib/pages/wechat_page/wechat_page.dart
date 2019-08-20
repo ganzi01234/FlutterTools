@@ -70,7 +70,7 @@ class _WeChatPageState extends State<WeChatPage> {
 //    await FlutterWechat.shareMusic(imgUrl: "xxx", musicUrl:"",title:"",description:"",musicDataUrl:"",musicLowBandDataUrl:"",musicLowBandUrl:"",type:0,);
 //    await FlutterWechat.shareVideo(imgUrl: "xxx", videoUrl:"",title:"",description:"",videoLowBandUrl:"",type:0,);
     await FlutterWechat.shareWebPage(imgUrl: "https://mmbiz.qlogo.cn/mmbiz_png/GgNSgANKbLIfIxzLK9iaPY0ibtd9icFGocqbkBMD4y96UnfotmOnbV4DVl1U8SSX2cN8eSEZab45KlphYehzQtzGg/0?wx_fmt=png",
-      webpageUrl:"https://",title:"Flutter Tools",description:"Flutter Tools项目分享，快速构建Flutter APP",type:0,);
+      webpageUrl:"https://github.com/ganzi01234/FlutterTools/",title:"Flutter Tools",description:"Flutter Tools项目分享，快速构建Flutter APP",type:0,);
 
   }
 ///微信登录，没有注册
