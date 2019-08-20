@@ -26,6 +26,7 @@ class _WeChatPageState extends State<WeChatPage> {
   String payContent = "微信支付";
   String shareContent = "微信文字分享";
   String shareImg = "微信图片分享";
+  String shareLink = "微信链接分享";
   String login = "微信登录";
   final myController = new TextEditingController();
 
@@ -48,23 +49,33 @@ class _WeChatPageState extends State<WeChatPage> {
   }
 
   _initWechat() async{
-    await FlutterWechat.registerWechat("wxxxxxx");// 微信注册需要在你需要的地方注册，最好是app首页
+    await FlutterWechat.registerWechat("wxf07cd9e63da64c70");// 微信注册需要在你需要的地方注册，最好是app首页
   }
 
 
   _wechatShared() async{
-    await FlutterWechat.shareText(text: "test", type:0,);//文字分享 type 0 聊天页面 1 朋友圈
+    await FlutterWechat.shareText(text: "Flutter Tools项目分享，快速构建Flutter APP", type:0,);//文字分享 type 0 聊天页面 1 朋友圈
   }
 
   _wechatSharedImg() async{
-    await FlutterWechat.shareImage(imgUrl: "xxx", type:0,);
+    await FlutterWechat.shareImage(imgUrl: "https://mmbiz.qlogo.cn/mmbiz_png/GgNSgANKbLIfIxzLK9iaPY0ibtd9icFGocqbkBMD4y96UnfotmOnbV4DVl1U8SSX2cN8eSEZab45KlphYehzQtzGg/0?wx_fmt=png", type:0,);
 //    await FlutterWechat.shareMusic(imgUrl: "xxx", musicUrl:"",title:"",description:"",musicDataUrl:"",musicLowBandDataUrl:"",musicLowBandUrl:"",type:0,);
 //    await FlutterWechat.shareVideo(imgUrl: "xxx", videoUrl:"",title:"",description:"",videoLowBandUrl:"",type:0,);
 //    await FlutterWechat.shareWebPage(imgUrl: "xxx", webpageUrl:"",title:"",description:"",type:0,);
 
   }
 
+  _wechatSharedLink() async{
+//    await FlutterWechat.shareWebPage(imgUrl: "https://mmbiz.qlogo.cn/mmbiz_png/GgNSgANKbLIfIxzLK9iaPY0ibtd9icFGocqbkBMD4y96UnfotmOnbV4DVl1U8SSX2cN8eSEZab45KlphYehzQtzGg/0?wx_fmt=png", type:0,);
+//    await FlutterWechat.shareMusic(imgUrl: "xxx", musicUrl:"",title:"",description:"",musicDataUrl:"",musicLowBandDataUrl:"",musicLowBandUrl:"",type:0,);
+//    await FlutterWechat.shareVideo(imgUrl: "xxx", videoUrl:"",title:"",description:"",videoLowBandUrl:"",type:0,);
+    await FlutterWechat.shareWebPage(imgUrl: "https://mmbiz.qlogo.cn/mmbiz_png/GgNSgANKbLIfIxzLK9iaPY0ibtd9icFGocqbkBMD4y96UnfotmOnbV4DVl1U8SSX2cN8eSEZab45KlphYehzQtzGg/0?wx_fmt=png",
+      webpageUrl:"https://",title:"Flutter Tools",description:"Flutter Tools项目分享，快速构建Flutter APP",type:0,);
+
+  }
+///微信登录，没有注册
   _wechatLogin() async{
+
     await FlutterWechat.login(scope:"",state:"");
   }
 
@@ -109,6 +120,18 @@ class _WeChatPageState extends State<WeChatPage> {
             )
             ],
           ), onPressed: _wechatSharedImg),
+          FlatButton(child: new Row(
+            children: [ Icon(Icons.link),
+            new Text(shareLink,
+              style: new TextStyle(
+                color: Colors.black87,
+                fontWeight: FontWeight.normal,
+                fontSize: 20,
+              ),
+              textAlign: TextAlign.center,
+            )
+            ],
+          ), onPressed: _wechatSharedLink),
           FlatButton(child: new Row(
             children: [ Icon(Icons.check),
             new Text(login,
