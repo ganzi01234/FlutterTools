@@ -73,12 +73,12 @@ class _WeChatPageState extends State<WeChatPage> {
       webpageUrl:"https://github.com/ganzi01234/FlutterTools/",title:"Flutter Tools",description:"Flutter Tools项目分享，快速构建Flutter APP",type:0,);
 
   }
-///微信登录，没有注册
+///微信登录，没有开通权限
   _wechatLogin() async{
 
     await FlutterWechat.login(scope:"",state:"");
   }
-
+///微信支付，没有开通权限
   _WeChatPay() async{
     await FlutterWechat.pay(partnerId: "",prepayId: "",nonceStr: "",timeStamp: "",sign: "",package: "",appId: "",).then((state){print(state);});
   }
