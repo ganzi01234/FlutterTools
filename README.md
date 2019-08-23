@@ -1,5 +1,5 @@
 # FlutterTools简介
-一个包含了常用APP开发模块的Flutter框架程序，你可以基于此程序快速进行Flutter开发。
+一个包含了常用APP开发模块的Flutter框架程序，你可以基于此程序快速进行Flutter开发。[Apk下载](https://github.com/ganzi01234/FlutterTools/blob/master/app-release.apk?raw=true)
 
 # 写在开头
 作者在学习Flutter开发的过程中遇到很多问题，从http://pub.dev 上面引入第三方包遇到的各种问题，Flutter程序配置问题等等，现总结以往的APP开发经验，程序集成了常用的APP第三方开发包，把我觉得比较好用的开发包做一个整理，制作成一个FlutterTools项目框架来给想要Flutter开发的同学们快速上手开发工作。也把我开发过程遇到的一些坑给广大的开发者踩一遍，希望后来的可以避免这些坑。
