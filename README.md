@@ -23,6 +23,7 @@
   Webview（[flutter_webview_plugin](https://pub.dev/packages/flutter_webview_plugin)）  
   阿里支付（[flutter_alipay](https://pub.dev/packages/flutter_alipay)），这个库支付回调如果错误会报空指针的crash，希望下个版本改进，或者可以换其他库  
   微信SDK（[flutter_wechat](https://pub.dev/packages/flutter_wechat)）  
+  文件下载（[flutter_downloader](https://pub.dev/packages/flutter_downloader)） 
   百度地图（[fm_baidu_map](https://pub.dev/packages/fm_baidu_map)）  
   谷歌Admob（[firebase_admob](https://pub.dev/packages/firebase_admob)）  
   游戏Developer Quest--这是一个完全使用Flutter开发的小游戏，很酷。。   
